@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(../assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+.main {
+    background-color: #24204A;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+/* .H1Apre{
+    font-family: GilroyLight;
+    font-size: 36px ;
+} */
+
+.presentMyself{
+    width: 30%;
+    font-family: GilroyLight;
+    font-size: 36px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+    /* margin-bottom: 2%; */
+    margin-left: 4%;
+    color: white;
+    /* border: 1px solid orange; */
+
+}
+
+.presentMyself span{
+    font-family: GilroyBold;
+    font-size: 16px;
+    text-align: start;
+}
+
+.Apre{
+    font-family: GilroyBold;
+    font-size: 54px;
+    text-align: start;
+}
+
+.presentMyself button{
+    width: 45%;
+    height: 64px;
+    background-color: #3F50E7;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 5px 5px 25px 0px rgba(75, 72, 100, 1);
+}
+
+.imgLamp{
+    padding-left: 50px;
+}
