@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(../assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+.skills{
+    border: 1px solid white;
+    width: 20vw;
+    height: 5vh;
+}
+
+.firstSkill{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #FF6753;
+}
+
+.main{
+    background-color: #24204A;
+}

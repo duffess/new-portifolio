@@ -60,11 +60,18 @@
     text-align: start;
 }
 
-.Apre{
+.presentMyself p{
+    font-family: GilroyBold;
+    font-size: 42px;
+    text-align: start;
+    width: 100%;
+}
+
+/* .Apre{
     font-family: GilroyBold;
     font-size: 54px;
     text-align: start;
-}
+} */
 
 .presentMyself button{
     width: 45%;
