@@ -14,19 +14,42 @@
     src: url(../assets/fonts/Gilroy-ExtraBold.otf);
 }
 
+.mainSection{
+    width: 100vw;
+    height: 100vh;
+    background-color: #24204A !important;
+}
+
 .skills{
     border: 1px solid white;
-    width: 20vw;
+    width: 100vw;
     height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 15vw; */
 }
 
 .firstSkill{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 8px;
+    margin-top: 4vh;
     background-color: #FF6753;
 }
 
-.main{
-    background-color: #24204A;
+.second{
+    background-color: #FF537C;
+}
+
+.second{
+    background-color: #80D2C4;
+}
+
+.second{
+    background-color: #3F50E7;
+}
+
+.second{
+    background-color: #95CB7C;
 }
