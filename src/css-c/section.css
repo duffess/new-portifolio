@@ -30,26 +30,38 @@
     /* gap: 15vw; */
 }
 
-.firstSkill{
-    width: 56px;
-    height: 56px;
-    border-radius: 8px;
+.firstSkill {
+    display: flex;
+    align-items: center; 
     margin-top: 4vh;
     background-color: #FF6753;
+    padding: 8px; 
+    border-radius: 8px;
+}
+
+.firstSkill img {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
 }
 
 .second{
     background-color: #FF537C;
 }
 
-.second{
-    background-color: #80D2C4;
+.third{
+    background-color: #5f8c84;
 }
 
-.second{
+.fourth{
     background-color: #3F50E7;
 }
 
-.second{
+.fifith{
     background-color: #95CB7C;
+}
+
+.infos {
+    margin-left: 10px; /* Adicione margem à esquerda para separar da imagem */
+    color: white; /* Define a cor do texto */
 }
