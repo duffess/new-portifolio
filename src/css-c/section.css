@@ -14,20 +14,51 @@
     src: url(../assets/fonts/Gilroy-ExtraBold.otf);
 }
 
+@font-face {
+    font-family: HovesBold;
+    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf);
+}
+
+@font-face {
+    font-family: HovesMedium;
+    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
+}
+
 .mainSection{
     width: 100vw;
     height: 100vh;
-    background-color: #24204A !important;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 15vw; */
+    color: white;
+    background-color: #071341 !important;
+
 }
 
-.skills{
-    border: 1px solid white;
-    width: 100vw;
-    height: 5vh;
+
+
+.topProjeto {
+    font-family: HovesBold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+
+.topProjeto2 {
+    margin-top: 50px;
+    font-family: GilroyBold;
+    font-size: 16px;
+}
+
+.subSkills {
+    width: 90vw;
+    height: 14%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    /* gap: 15vw; */
+    align-items: start;
+    border-bottom: 3px solid #8E88C1;
 }
 
 .firstSkill {
@@ -37,7 +68,11 @@
     background-color: #FF6753;
     padding: 8px; 
     border-radius: 8px;
+    font-family: GilroyBold;
+    font-size: 16px;
 }
+
+
 
 .firstSkill img {
     width: 48px;
@@ -64,4 +99,35 @@
 .infos {
     margin-left: 10px; /* Adicione margem à esquerda para separar da imagem */
     color: white; /* Define a cor do texto */
+}
+
+.paiProjetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.projeto-item{
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8E88C1;
+    border-radius: 16px;
+    margin-top: 8vw;
+    font-family: GilroyLight;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: .4s ease-in-out ;
+}
+
+.projeto-item:hover {
+    width: 245px;
+    height: 300px;
+    border: 3px solid black;
+    transition: .4s ease-in-out ;
 }
