@@ -1,3 +1,5 @@
+Projetos dificieis em JS para pôr no portifólio
+
 * {
     margin: 0;
     padding: 0;
@@ -118,16 +120,30 @@
     font-family: GilroyLight;
     font-size: 16px;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     transition: .4s ease-in-out ;
+    opacity: 1;
+}
+
+.projeto-item img,
+.projeto-item p {
+    opacity: 1;
 }
 
 .projeto-item:hover {
     width: 245px;
     height: 300px;
-    border: 3px solid black;
+    font-family: GilroyLight;
+    border: none;
+    box-shadow: inset 0px 58px 57px -41px rgba(255,103,83,1);
+    background-image: url(../assets/imgs/New\ Project.png);
     transition: .4s ease-in-out ;
+    .projeto-item img,
+    .projeto-item p {
+        opacity: 0;
+    }
 }

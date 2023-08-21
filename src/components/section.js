@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { AiFillUnlock } from 'react-icons/ai';
 import '../css-c/section.css';
 import ImgReact from "../assets/imgs/react.png"
 import JsImg from "../assets/imgs/js.png"
@@ -9,6 +10,9 @@ import LightImg from "../assets/imgs/light.png"
 
 
 export default function Main() {
+
+    const [hovered, setHovered] = useState(false)
+
   return (
     <div className='mainSection'>
             <div className='subSkills'>
