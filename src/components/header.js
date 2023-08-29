@@ -1,5 +1,9 @@
 import React from 'react';
 import '../css-c/header.css';
+import IconHome from '../assets/SVGS/home.svg'
+import IconSkills from '../assets/SVGS/skills.svg'
+import IconSuitCase from '../assets/SVGS/suitcase.svg'
+import IconBooks from '../assets/SVGS/books.svg'
 
 export default function Header() {
 
@@ -16,10 +20,10 @@ export default function Header() {
             <p>TechO</p>
           </div>
           <div className='nav' >
-            <a href='#home'> Home </a>
-            <a href='#projects'> Projects </a>
-            <a href='#catalog'> Catalog </a>
-            <a href='#contactUs'> Contact us </a>
+            <a href='#home'> <img src={IconHome}/> </a>
+            <a href='#projects'> <img src={IconSkills}/> </a>
+            <a href='#catalog'> <img src={IconSuitCase}/> </a>
+            <a href='#contactUs'> <img src={IconBooks}/> </a>
           </div>
         </div>
       </div>

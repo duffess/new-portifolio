@@ -40,22 +40,24 @@
 
 .presentMyself{
     width: 30%;
-    font-family: GilroyLight;
     font-size: 36px ;
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: center;
     padding: 30px;
-    /* margin-bottom: 2%; */
     margin-left: 4%;
     color: white;
-    /* border: 1px solid orange; */
-
 }
 
 .presentMyself span{
-    font-family: GilroyBold;
+    font-family: GilroyLight;
+    font-size: 16px;
+    text-align: start;
+}
+
+.presentMyself button{
+    font-family: GilroyLight;
     font-size: 16px;
     text-align: start;
 }
@@ -66,12 +68,6 @@
     text-align: start;
     width: 100%;
 }
-
-/* .Apre{
-    font-family: GilroyBold;
-    font-size: 54px;
-    text-align: start;
-} */
 
 .presentMyself button{
     width: 45%;

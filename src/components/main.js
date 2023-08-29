@@ -7,9 +7,11 @@ export default function Main() {
     <div className="main">
         <div className='subMain'>
             <div className='presentMyself' >
-                <p className='Apre' > LOREM </p>
-                <p className='Apre' > IPSUM</p>
-                <span> Mussum Ipsum, cacilds vidis litro abertis.  Paisis, filhis, espiritis santis. Diuretics paradis num copo é motivis de denguis. Interagi no mé, cursus quis, vehicula ac nisi. Quem num gosta di mim que vai caçá sua turmis! </span>
+                <p className='Apre' > OLÁ, </p>
+                <p className='Apre' > EU SOU <br></br> GUILHERME DUFFES</p>
+                <span> Atualmente fazendo estágio na área de desenvolvimento na Serget Mobilidade Viária, atuando principalmente na manutenção e desenvolvimento de novas ferramentas, e funcionalidades para usuários dos sistemas públicos e privados da empresa.
+                  
+                Além de estar muito determinado para meu crescimento pessoal de conhecimento na área da tecnologia, criando projetos sempre inovadores para mim com muito amor e dedicação.   </span>
                 <button>Ola</button>
             </div>
 
