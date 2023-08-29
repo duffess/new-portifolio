@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { AiFillUnlock } from 'react-icons/ai';
 import '../css-c/section.css';
 import ImgReact from "../assets/imgs/react.png"
 import JsImg from "../assets/imgs/js.png"
