@@ -1,0 +1,78 @@
+Projetos dificieis em JS para pôr no portifólio
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(../assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: HovesBold;
+    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf);
+}
+
+@font-face {
+    font-family: HovesMedium;
+    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
+}
+
+.mainSection2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background-color: #24204A !important;
+}
+
+.mainSection2 h1{
+    font-family: GilroyBold;
+    font-size: 3vw;
+}
+
+.mainSection2 p{
+    font-family: GilroyLight;
+    font-size: 16px;
+}
+
+.mainSection2 img {
+    width: 25vw;
+}
+
+.texto1{
+    border: 1px solid white;
+    width: 37vw;
+    max-height: 310px;
+    text-align: start;  
+}
+
+
+.texto2{
+    border: 1px solid white;
+    width: 37vw;
+    max-height: 310px;
+    text-align: start;
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8vh;
+    max-height: 310px;
+}
+
+
