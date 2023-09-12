@@ -9,6 +9,10 @@ export default function Main() {
 
   return (
     <div className='mainSection2'>
+      <h2>Sobre Mim</h2  >
+      <h1>Sobre mim</h1>
+      <div className='filhoMainSection2' >
+      
             <img src={ImgEu}/>
 
             <div className='textos'>
@@ -28,6 +32,7 @@ magna aliqua.</p>
             </div>
 
 
+      </div>
             
     </div>
   );
