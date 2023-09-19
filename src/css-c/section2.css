@@ -1,5 +1,3 @@
-Projetos dificieis em JS para pôr no portifólio
-
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +47,11 @@ Projetos dificieis em JS para pôr no portifólio
 
 .mainSection2 img {
     width: 25vw;
+}
+
+.filhoMainSection2{
+    display: flex;
+    margin-top: 100px;
 }
 
 .texto1{
