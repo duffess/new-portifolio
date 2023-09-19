@@ -32,7 +32,7 @@ Projetos dificieis em JS para pôr no portifólio
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     color: white;
     background-color: #24204A !important;
 }
@@ -52,27 +52,67 @@ Projetos dificieis em JS para pôr no portifólio
 }
 
 .texto1{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 37vw;
     max-height: 310px;
-    text-align: start;  
+    text-align: left;  
 }
 
+.texto1 p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: -8px;
+  }
+  
+  .texto1 p::before,
+  .texto1 p::after {
+    content: "";
+    margin: 10px; 
+  }
 
-.texto2{
-    border: 1px solid white;
-    width: 37vw;
-    max-height: 310px;
-    text-align: start;
-}
 
 .textos{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    gap: 8vh;
+    gap: 3vh;
     max-height: 310px;
 }
 
+.textos > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textos > span{
+    text-align: start;
+}
+
+.textos > h3 {
+    color: #edc45f;
+}
+
+.TopDescription{
+    font-size: 20px;
+}
+
+.DivDescricao{
+    width: 75vh;
+    max-height: 310px;
+    text-align: start;
+    /* border: 1px solid blue; */
+}
+
+.FotoComTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Sobremim h1 {
+    border-bottom: 3px solid #edc45f;
+}
 
