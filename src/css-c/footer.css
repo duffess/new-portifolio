@@ -26,13 +26,14 @@
 
 .Footer{
     width: 100vw;
-    height: 20vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: white;
-    background-url: {"http://api.thumbr.it/whitenoise-361x370.png?background=#071341ff&noise=7a747a&density=45&opacity=50"}
+    background-image: url('../assets/imgs/Noise2.png');
+    background-size: contain;
     background-color: #071341 !important;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
