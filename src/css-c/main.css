@@ -15,7 +15,9 @@
 }
 
 .main {
-    background-color: #24204A;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/imgs/971.jpg);
+    background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -23,20 +25,18 @@
     align-items: center;
 }
 
+
+
 .subMain{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
     height: 100%;
     /* border: 1px solid white; */
 }
 
-/* .H1Apre{
-    font-family: GilroyLight;
-    font-size: 36px ;
-} */
 
 .presentMyself{
     width: 30%;
@@ -52,32 +52,39 @@
 
 .presentMyself span{
     font-family: GilroyLight;
-    font-size: 16px;
-    text-align: start;
-}
-
-.presentMyself button{
-    font-family: GilroyLight;
-    font-size: 16px;
-    text-align: start;
+    font-size: 20px;
+    text-align: center;
 }
 
 .presentMyself p{
     font-family: GilroyBold;
-    font-size: 42px;
-    text-align: start;
+    text-shadow: 4px 1px 2px #95CB7C;
+    font-size: 84px;
+    text-align: center;
+    letter-spacing: 15px;
     width: 100%;
 }
 
-.presentMyself button{
+.button{
     width: 45%;
     height: 64px;
-    background-color: #3F50E7;
-    border-radius: 16px;
+    font-size: 1px;
+    background-color: #d6a354;
     border: none;
-    box-shadow: 5px 5px 25px 0px rgba(75, 72, 100, 1);
+    font-family: GilroyLight;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #fff;
+    border-radius: 0.4em;
 }
 
-.imgLamp{
-    padding-left: 50px;
+.button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.button:active {
+    transform: translate(0.05em, 0.05em);
 }

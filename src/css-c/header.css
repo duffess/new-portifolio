@@ -24,7 +24,8 @@
     gap: 75%;
     width: 100vw;
     height: 10vh;
-    background-color: #24204A;
+    /* background-color: #24204A; */
+    background-image: url('../assets/imgs/Noise2.png');
     color: white;
     /* border: 1px solid orange; */
 }
