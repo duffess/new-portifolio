@@ -53,7 +53,7 @@
 .presentMyself span{
     font-family: GilroyLight;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .presentMyself p{
@@ -69,14 +69,14 @@
     width: 45%;
     height: 64px;
     font-size: 1px;
-    background-color: #d6a354;
+    background-color: #f7e571;
     border: none;
     font-family: GilroyLight;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     cursor: pointer;
-    box-shadow: 3px 3px 0px #fff;
+    box-shadow: 3px 3px 0px #777676;
     border-radius: 0.4em;
 }
 

@@ -98,8 +98,8 @@ Projetos dificieis em JS para pôr no portifólio
 }
 
 .infos {
-    margin-left: 10px; /* Adicione margem à esquerda para separar da imagem */
-    color: white; /* Define a cor do texto */
+    margin-left: 10px;
+    color: white;
 }
 
 .paiProjetos{
@@ -109,7 +109,7 @@ Projetos dificieis em JS para pôr no portifólio
     gap: 4vw;
 }
 
-.projeto-item{
+.projeto-item {
     width: 209px;
     height: 206px;
     background-color: transparent;
@@ -124,12 +124,11 @@ Projetos dificieis em JS para pôr no portifólio
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    transition: .4s ease-in-out ;
+    transition: .4s ease-in-out;
     opacity: 1;
 }
 
-.projeto-item img,
-.projeto-item p {
+.projeto-item .conteudo {
     opacity: 1;
 }
 
@@ -138,11 +137,12 @@ Projetos dificieis em JS para pôr no portifólio
     height: 300px;
     font-family: GilroyLight;
     border: none;
-    box-shadow: inset 0px 58px 57px -41px rgba(255,103,83,1);
+    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
     background-image: url(../assets/imgs/New\ Project.png);
-    transition: .4s ease-in-out ;
-    .projeto-item img,
-    .projeto-item p {
-        opacity: 0;
-    }
+    transition: .4s ease-in-out;
 }
+
+.projeto-item:hover .conteudo {
+    opacity: 0;
+}
+

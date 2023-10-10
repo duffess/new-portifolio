@@ -55,33 +55,40 @@ export default function Main() {
         
             <div className='paiProjetos'>
                 <div className='projeto-item'>
-                    <img src={LightImg}/>
-                    <p>Primeiro Projeto</p>
+                    <div class='conteudo'>
+                        <img src={LightImg}/>
+                        <p>Primeiro Projeto</p>
+                    </div>
                 </div>
 
                 <div className='projeto-item'>
-                    <img src={LightImg}/>
-                    <p>Segundo Projeto</p>
+                    <div class='conteudo'>
+                        <img src={LightImg}/>
+                        <p>Segundo Projeto</p>
+                    </div>
                 </div>
 
                 <div className='projeto-item'>
-                     <img src={LightImg}/>
-                    <p>Terceiro Projeto</p>
+                    <div class='conteudo'>
+                        <img src={LightImg}/>
+                        <p>Terceiro Projeto</p>
+                    </div>
                 </div>
 
                 <div className='projeto-item'>
-                  <img src={LightImg}/>   
-                   <p>Quarto Projeto</p>
+                    <div class='conteudo'>
+                        <img src={LightImg}/>
+                        <p>Quarto Projeto</p>
+                    </div>
                 </div>
 
                 <div className='projeto-item'>
-                  <img src={LightImg}/>
-                 <p>Quinto Projeto</p>
+                    <div class='conteudo'>
+                        <img src={LightImg}/>
+                        <p>Quinto Projeto</p>
+                    </div>
                 </div>
             </div>
-
-
-
     </div>
   );
 }

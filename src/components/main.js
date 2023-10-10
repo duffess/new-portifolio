@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css-c/main.css';
-import lamp from '../assets/imgs/Vector.webp';
 
 export default function Main() {
   return (
@@ -10,9 +9,7 @@ export default function Main() {
                 <p className='Apre' >DUFFES</p>
                 <span> Estou estudando desenvolvimento no Instituto Infnet, com foco em front-end usando React e ferramentas. Tenho determinação em crescer na área de tecnologia e criar projetos inovadores. </span>
                 <button className='button' > Entre em contato </button>
-            </div>
-
-            
+            </div>            
         </div>
     </div>
   );

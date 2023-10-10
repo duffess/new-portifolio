@@ -32,7 +32,7 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    background-color: #24204A !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../assets/imgs/abstract2.jpg);
 }
 
 .mainSection2 h1{

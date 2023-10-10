@@ -20,10 +20,10 @@ export default function Header() {
             <p>TechO</p>
           </div>
           <div className='nav' >
-            <a href='#home'> <img src={IconHome}/> </a>
-            <a href='#projects'> <img src={IconSkills}/> </a>
-            <a href='#catalog'> <img src={IconSuitCase}/> </a>
-            <a href='#contactUs'> <img src={IconBooks}/> </a>
+            <a href='#home'> <img className='svgNav' src={IconHome}/> </a>
+            <a href='#projects'> <img className='svgNav' src={IconSkills}/> </a>
+            <a href='#catalog'> <img className='svgNav' src={IconSuitCase}/> </a>
+            <a href='#contactUs'> <img  className='svgNav' src={IconBooks}/> </a>
           </div>
         </div>
       </div>
