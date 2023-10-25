@@ -86,6 +86,7 @@
 
 .PaiTextosImg{
     display: flex;
+    flex-direction: column;
     align-items: center;
     /* border: 1px solid orange; */
 }
@@ -140,3 +141,18 @@
     border-bottom: 3px solid #edc45f;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .PaiTextosImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid orange; */
+        gap: 10px;
+    }
+
+    .mainSection2 img {
+        width: 45vw;
+        margin-right: 25px;
+    }
+  }

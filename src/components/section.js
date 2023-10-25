@@ -54,35 +54,35 @@ export default function Main() {
             <p className='topProjeto2' >Passe o mouse ou clique para obter mais informações!</p>
         
             <div className='paiProjetos'>
-                <div className='projeto-item'>
+                <div className='projeto-item projeto1'>
                     <div class='conteudo'>
                         <img src={LightImg}/>
                         <p>Primeiro Projeto</p>
                     </div>
                 </div>
 
-                <div className='projeto-item'>
+                <div className='projeto-item projeto2'>
                     <div class='conteudo'>
                         <img src={LightImg}/>
                         <p>Segundo Projeto</p>
                     </div>
                 </div>
 
-                <div className='projeto-item'>
+                <div className='projeto-item projeto3'>
                     <div class='conteudo'>
                         <img src={LightImg}/>
                         <p>Terceiro Projeto</p>
                     </div>
                 </div>
 
-                <div className='projeto-item'>
+                <div className='projeto-item projeto4'>
                     <div class='conteudo'>
                         <img src={LightImg}/>
                         <p>Quarto Projeto</p>
                     </div>
                 </div>
 
-                <div className='projeto-item'>
+                <div className='projeto-item projeto5'>
                     <div class='conteudo'>
                         <img src={LightImg}/>
                         <p>Quinto Projeto</p>
