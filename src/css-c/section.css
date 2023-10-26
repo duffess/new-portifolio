@@ -242,10 +242,7 @@ Projetos dificieis em JS para pôr no portifólio
 
   }
 
- 
-
-@media screen and (min-width: 1201px) and (max-width: 1720px){
-    
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
     .paiProjetos{
         display: flex;
         justify-content: center;
@@ -253,7 +250,6 @@ Projetos dificieis em JS para pôr no portifólio
         flex-wrap: wrap;
         gap: 4vw;
         width: 960px;
-        border: 2px solid orange;
     }
     
     .projeto-item {
@@ -286,9 +282,62 @@ Projetos dificieis em JS para pôr no portifólio
         transition: .4s ease-in-out;
     }
 
-    .projeto5{
-        margin-top: 0;
+
+    .topProjeto {
+        font-family: HovesBold;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
+    
+    .topProjeto2 {
+        margin-top: 0;
+        font-family: GilroyBold;
+        font-size: 16px;
+    }
+  }
+
+@media screen and (min-width: 1201px) and (max-width: 1720px){
+    
+    .paiProjetos{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4vw;
+        width: 960px;
+    }
+    
+    .projeto-item {
+        width: 209px;
+        height: 206px;
+        background-color: transparent;
+        border: 1px solid #8E88C1;
+        border-radius: 16px;
+        margin-top: 8vw;
+        font-family: GilroyLight;
+        font-size: 16px;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        transition: .4s ease-in-out;
+        opacity: 1;
+    }
+
+    .projeto5:hover {
+        width: 245px;
+        height: 300px;
+        margin-bottom: 150px;
+        font-family: GilroyLight;
+        border: none;
+        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+        background-image: url(../assets/imgs/catalogoFilmes.webp);
+        transition: .4s ease-in-out;
+    }
+
 
     .topProjeto {
         font-family: HovesBold;

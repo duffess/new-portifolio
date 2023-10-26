@@ -106,7 +106,7 @@
         font-size: 19px;
         width: 300px;
         max-height: 200px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
     
     .presentMyself p{
@@ -118,7 +118,7 @@
     }
 
     .button{
-        width: 75%;
+        width: 130%;
         height: 64px;
         font-size: 1px;
         background-color: #f7e571;
