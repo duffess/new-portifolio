@@ -31,7 +31,7 @@ export default function Main() {
                 <div className='texto1'>
 
                     <p> Data de Nascimento &nbsp; | &nbsp; 11 de Janeiro de 2004 </p>
-                    <p> Telefone &nbsp; | &nbsp; +55 21 971235386 </p>
+                    <p> Telefone &nbsp; | &nbsp; +55 21 97123-5386 </p>
                     <p> Email &nbsp; | &nbsp; guilherme.duffes@al.infnet.edu.br </p>
                     <p> Idiomas &nbsp; | &nbsp; Português/Inglês </p>
                     <p> Freelance &nbsp; | &nbsp; Disponível </p>

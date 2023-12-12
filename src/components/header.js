@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../css-c/header.css';
 import IconHome from '../assets/SVGS/home.svg'
 import IconSkills from '../assets/SVGS/skills.svg'
@@ -6,6 +7,7 @@ import IconSuitCase from '../assets/SVGS/suitcase.svg'
 import IconBooks from '../assets/SVGS/books.svg'
 
 export default function Header() {
+
 
   const TecHOLink = document.getElementById('tech');
   const NavLinks = document.getElementById('nav');
@@ -19,6 +21,10 @@ export default function Header() {
           <div className='tech'>
             <p>TechO</p>
           </div>
+
+          
+          
+          
           <div className='nav' >
             <a href='#home'> <img className='svgNav' src={IconHome}/> </a>
             <a href='#projects'> <img className='svgNav' src={IconSkills}/> </a>

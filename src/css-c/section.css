@@ -1,5 +1,3 @@
-Projetos dificieis em JS para pôr no portifólio
-
 * {
     margin: 0;
     padding: 0;
@@ -55,8 +53,9 @@ Projetos dificieis em JS para pôr no portifólio
 
 .subSkills {
     width: 90vw;
-    height: 14%;
+    height: 25%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: start;
     border-bottom: 3px solid #8E88C1;
@@ -65,7 +64,7 @@ Projetos dificieis em JS para pôr no portifólio
 .firstSkill {
     display: flex;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 3vh;
     background-color: #FF6753;
     padding: 8px; 
@@ -129,13 +128,16 @@ Projetos dificieis em JS para pôr no portifólio
     opacity: 1;
 }
 
+.projeto-item:hover{
+    width: 225px;
+    height: 300px;
+}
+
 .projeto-item .conteudo {
     opacity: 1;
 }
 
 .projeto1:hover {
-    width: 245px;
-    height: 300px;
     font-family: GilroyLight;
     border: none;
     box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
@@ -186,6 +188,128 @@ Projetos dificieis em JS para pôr no portifólio
 .projeto-item:hover .conteudo {
     opacity: 0;
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .mainSection{
+        width: 100nmvw;
+        height: 150vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 15vw; */
+        color: white;
+        background-image: url('../assets/imgs/Noise2.png');
+    }
+
+    .paiProjetos{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4vw;
+    }
+    
+    .projeto-item {
+        width: 209px;
+        height: 206px;
+        background-color: transparent;
+        border: 1px solid #8E88C1;
+        border-radius: 16px;
+        margin-top: 8vw;
+        font-family: GilroyLight;
+        font-size: 16px;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        transition: .4s ease-in-out;
+        opacity: 1;
+    }
+
+    .projeto5:hover {
+        width: 245px;
+        height: 300px;
+        margin-bottom: 150px;
+        font-family: GilroyLight;
+        border: none;
+        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+        background-image: url(../assets/imgs/catalogoFilmes.webp);
+        transition: .4s ease-in-out;
+    }
+
+
+    .topProjeto {
+        font-family: HovesBold;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .topProjeto2 {
+        margin-top: 0;
+        font-family: GilroyBold;
+        font-size: 16px;
+    }
+  }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .paiProjetos{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4vw;
+        width: 960px;
+    }
+    
+    .projeto-item {
+        width: 209px;
+        height: 206px;
+        background-color: transparent;
+        border: 1px solid #8E88C1;
+        border-radius: 16px;
+        margin-top: 8vw;
+        font-family: GilroyLight;
+        font-size: 16px;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        transition: .4s ease-in-out;
+        opacity: 1;
+    }
+
+    .projeto5:hover {
+        width: 245px;
+        height: 300px;
+        margin-bottom: 150px;
+        font-family: GilroyLight;
+        border: none;
+        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+        background-image: url(../assets/imgs/catalogoFilmes.webp);
+        transition: .4s ease-in-out;
+    }
+
+
+    .topProjeto {
+        font-family: HovesBold;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .topProjeto2 {
+        margin-top: 0;
+        font-family: GilroyBold;
+        font-size: 16px;
+    }
+  }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .paiProjetos{
@@ -242,60 +366,7 @@ Projetos dificieis em JS para pôr no portifólio
 
   }
 
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .paiProjetos{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4vw;
-        width: 960px;
-    }
-    
-    .projeto-item {
-        width: 209px;
-        height: 206px;
-        background-color: transparent;
-        border: 1px solid #8E88C1;
-        border-radius: 16px;
-        margin-top: 8vw;
-        font-family: GilroyLight;
-        font-size: 16px;
-        display: flex;
-        cursor: pointer;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        transition: .4s ease-in-out;
-        opacity: 1;
-    }
-
-    .projeto5:hover {
-        width: 245px;
-        height: 300px;
-        margin-bottom: 150px;
-        font-family: GilroyLight;
-        border: none;
-        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-        background-image: url(../assets/imgs/catalogoFilmes.webp);
-        transition: .4s ease-in-out;
-    }
-
-
-    .topProjeto {
-        font-family: HovesBold;
-        font-size: 36px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .topProjeto2 {
-        margin-top: 0;
-        font-family: GilroyBold;
-        font-size: 16px;
-    }
-  }
+  
 
 @media screen and (min-width: 1201px) and (max-width: 1720px){
     

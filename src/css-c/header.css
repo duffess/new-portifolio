@@ -68,3 +68,15 @@ a  {
     letter-spacing: 4px;
     cursor: pointer;
 }
+
+.menu {
+    border: 2px solid orange;
+    width: ;
+}
+
+.bm-burger-button{
+    background-image: url('../assets/SVGS/menu.svg');
+    background-repeat: no-repeat    ;
+    width: 29px;
+    height: 28px;
+}
