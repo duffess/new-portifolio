@@ -91,6 +91,86 @@
     transform: translate(0.05em, 0.05em);
 }
 
+@media screen and (max-width: 319px){
+    .button{
+        width: 65vw;
+        height: 64px;
+        font-size: 1px;
+        background-color: #f7e571;
+        border: none;
+        font-family: GilroyLight;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 3px 3px 0px #777676;
+        border-radius: 0.4em;
+    }
+
+    .presentMyself{
+        width: 30%;
+        font-size: 36px ;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        padding: 30px;
+        margin-left: 4%;
+        color: white;
+    }
+
+    .presentMyself span {
+        font-family: GilroyLight;
+        font-size: 16px;
+        width: 200px;
+        max-height: 200px;
+    }
+
+    .presentMyself > p {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .button{
+        width: 65vw;
+        height: 64px;
+        font-size: 1px;
+        background-color: #f7e571;
+        border: none;
+        font-family: GilroyLight;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 3px 3px 0px #777676;
+        border-radius: 0.4em;
+    }
+
+    .presentMyself{
+        width: 30%;
+        font-size: 36px ;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        padding: 30px;
+        margin-left: 4%;
+        color: white;
+    }
+
+    .presentMyself span {
+        font-family: GilroyLight;
+        font-size: 16px;
+        width: 200px;
+        max-height: 200px;
+    }
+
+    .presentMyself > p {
+        font-size: 36px;
+    }
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/imgs/971.jpg);
@@ -139,7 +219,6 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/imgs/971.jpg);
-        background-size: cover;
         background-position: center;
         width: 100vw;
         height: 100vh;

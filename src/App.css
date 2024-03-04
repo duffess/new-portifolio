@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track (parte de trás da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background: #edc45f;
+}
+
+/* Thumb (parte da barra de rolagem que pode ser clicada ou arrastada) */
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+/* Mudança de cor do polegar quando passa o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f50e7;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

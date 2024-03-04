@@ -1,119 +1,221 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: GilroyLight;
-    src: url(../assets/fonts/Gilroy-Light.otf);
+  font-family: GilroyLight;
+  src: url(../assets/fonts/Gilroy-Light.otf);
 }
 
 @font-face {
-    font-family: GilroyBold;
-    src: url(../assets/fonts/Gilroy-ExtraBold.otf);
+  font-family: GilroyBold;
+  src: url(../assets/fonts/Gilroy-ExtraBold.otf);
 }
 
 @font-face {
-    font-family: HovesBold;
-    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf);
+  font-family: HovesBold;
+  src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf);
 }
 
 @font-face {
-    font-family: HovesMedium;
-    src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
+  font-family: HovesMedium;
+  src: url(../assets/fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
 }
 
-.mainSection{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    /* gap: 15vw; */
-    color: white;
-    background-image: url('../assets/imgs/Noise2.png');
+.mainSection {
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 15vw; */
+  color: white;
+  background-image: url("../assets/imgs/Noise2.png");
 }
-
-
 
 .topProjeto {
-    font-family: HovesBold;
-    font-size: 36px;
-    margin-bottom: 10px;
-    margin-top: 55px;
+  font-family: HovesBold;
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-top: 55px;
 }
 
 .topProjeto2 {
-    margin-top: 50px;
-    font-family: GilroyBold;
-    font-size: 16px;
+  margin-top: 50px;
+  font-family: GilroyBold;
+  font-size: 16px;
 }
 
 .subSkills {
-    width: 90vw;
+  width: 90vw;
+  height: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+  border-bottom: 3px solid #8e88c1;
+}
+
+.firstSkill {
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  background-color: #ff6753;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: GilroyBold;
+  font-size: 16px;
+}
+
+.firstSkill img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.second {
+  background-color: #ff537c;
+}
+
+.third {
+  background-color: #5f8c84;
+}
+
+.fourth {
+  background-color: #3f50e7;
+}
+
+.fifith {
+  background-color: #95cb7c;
+}
+
+.infos {
+  margin-left: 10px;
+  color: white;
+}
+
+.paiProjetos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4vw;
+}
+
+.projeto-item {
+  width: 209px;
+  height: 206px;
+  background-color: transparent;
+  border: 1px solid #8e88c1;
+  border-radius: 16px;
+  margin-top: 8vw;
+  font-family: GilroyLight;
+  font-size: 16px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.projeto-item:hover {
+  width: 225px;
+  height: 300px;
+}
+
+.projeto-item .conteudo {
+  opacity: 1;
+}
+
+.projeto1:hover {
+  font-family: GilroyLight;
+  border: none;
+  box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+  background-image: url(../assets/imgs/New\ Project.webp);
+  transition: 0.4s ease-in-out;
+}
+
+.projeto2:hover {
+  width: 245px;
+  height: 300px;
+  font-family: GilroyLight;
+  border: none;
+  box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+  background-image: url(../assets/imgs/Banking.webp);
+  transition: 0.4s ease-in-out;
+}
+
+.projeto3:hover {
+  width: 245px;
+  height: 300px;
+  font-family: GilroyLight;
+  border: none;
+  box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+  background-image: url(../assets/imgs/cadastroProdutos.webp);
+  transition: 0.4s ease-in-out;
+}
+
+.projeto4:hover {
+  width: 245px;
+  height: 300px;
+  font-family: GilroyLight;
+  border: none;
+  box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+  background-image: url(../assets/imgs/CadastroPessoas.webp);
+  transition: 0.4s ease-in-out;
+}
+
+.projeto5:hover {
+  width: 245px;
+  height: 300px;
+  font-family: GilroyLight;
+  border: none;
+  box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+  background-image: url(../assets/imgs/catalogoFilmes.webp);
+  transition: 0.4s ease-in-out;
+}
+
+.projeto-item:hover .conteudo {
+  opacity: 0;
+}
+
+@media screen and (max-width: 319px) {
+  .topProjeto {
+    font-size: 16px;
+  }
+
+  .mainSection {
+    height: 250vh;
+  }
+
+  .subSkills {
+    width: 40vw;
     height: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: start;
-    border-bottom: 3px solid #8E88C1;
-}
+    border-bottom: 3px solid #8e88c1;
+  }
 
-.firstSkill {
-    display: flex;
-    align-items: center;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-    background-color: #FF6753;
-    padding: 8px; 
-    border-radius: 8px;
-    font-family: GilroyBold;
-    font-size: 16px;
-}
-
-
-
-.firstSkill img {
-    width: 48px;
-    height: 48px;
-    border-radius: 8px;
-}
-
-.second{
-    background-color: #FF537C;
-}
-
-.third{
-    background-color: #5f8c84;
-}
-
-.fourth{
-    background-color: #3F50E7;
-}
-
-.fifith{
-    background-color: #95CB7C;
-}
-
-.infos {
-    margin-left: 10px;
-    color: white;
-}
-
-.paiProjetos{
+  .paiProjetos {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 4vw;
-}
+  }
 
-.projeto-item {
+  .projeto-item {
     width: 209px;
     height: 206px;
     background-color: transparent;
-    border: 1px solid #8E88C1;
+    border: 1px solid #8e88c1;
     border-radius: 16px;
     margin-top: 8vw;
     font-family: GilroyLight;
@@ -124,302 +226,295 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    transition: .4s ease-in-out;
+    transition: 0.4s ease-in-out;
     opacity: 1;
+  }
+
+  .topProjeto2 {
+    font-size: 20px;
+  }
 }
 
-.projeto-item:hover{
-    width: 225px;
-    height: 300px;
-}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainSection {
+    height: 250vh;
+  }
 
-.projeto-item .conteudo {
+  .subSkills {
+    width: 40vw;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom: 3px solid #8e88c1;
+  }
+
+  .paiProjetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  .projeto-item {
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8e88c1;
+    border-radius: 16px;
+    margin-top: 8vw;
+    font-family: GilroyLight;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.4s ease-in-out;
     opacity: 1;
+  }
+
+  .topProjeto2 {
+    font-size: 20px;
+  }
 }
 
-.projeto1:hover {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mainSection {
+    width: 100nmvw;
+    height: 150vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 15vw; */
+    color: white;
+    background-image: url("../assets/imgs/Noise2.png");
+  }
+
+  .paiProjetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vw;
+  }
+
+  .projeto-item {
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8e88c1;
+    border-radius: 16px;
+    margin-top: 8vw;
     font-family: GilroyLight;
-    border: none;
-    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-    background-image: url(../assets/imgs/New\ Project.webp);
-    transition: .4s ease-in-out;
-}
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+  }
 
-.projeto2:hover {
+  .projeto5:hover {
     width: 245px;
     height: 300px;
-    font-family: GilroyLight;
-    border: none;
-    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-    background-image: url(../assets/imgs/Banking.webp);
-    transition: .4s ease-in-out;
-}
-
-.projeto3:hover {
-    width: 245px;
-    height: 300px;
-    font-family: GilroyLight;
-    border: none;
-    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-    background-image: url(../assets/imgs/cadastroProdutos.webp);
-    transition: .4s ease-in-out;
-}
-
-.projeto4:hover {
-    width: 245px;
-    height: 300px;
-    font-family: GilroyLight;
-    border: none;
-    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-    background-image: url(../assets/imgs/CadastroPessoas.webp);
-    transition: .4s ease-in-out;
-}
-
-.projeto5:hover {
-    width: 245px;
-    height: 300px;
+    margin-bottom: 150px;
     font-family: GilroyLight;
     border: none;
     box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
     background-image: url(../assets/imgs/catalogoFilmes.webp);
-    transition: .4s ease-in-out;
-}
-
-.projeto-item:hover .conteudo {
-    opacity: 0;
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-
-    .mainSection{
-        width: 100nmvw;
-        height: 150vh;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        flex-direction: column;
-        /* gap: 15vw; */
-        color: white;
-        background-image: url('../assets/imgs/Noise2.png');
-    }
-
-    .paiProjetos{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4vw;
-    }
-    
-    .projeto-item {
-        width: 209px;
-        height: 206px;
-        background-color: transparent;
-        border: 1px solid #8E88C1;
-        border-radius: 16px;
-        margin-top: 8vw;
-        font-family: GilroyLight;
-        font-size: 16px;
-        display: flex;
-        cursor: pointer;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        transition: .4s ease-in-out;
-        opacity: 1;
-    }
-
-    .projeto5:hover {
-        width: 245px;
-        height: 300px;
-        margin-bottom: 150px;
-        font-family: GilroyLight;
-        border: none;
-        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-        background-image: url(../assets/imgs/catalogoFilmes.webp);
-        transition: .4s ease-in-out;
-    }
-
-
-    .topProjeto {
-        font-family: HovesBold;
-        font-size: 36px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .topProjeto2 {
-        margin-top: 0;
-        font-family: GilroyBold;
-        font-size: 16px;
-    }
+    transition: 0.4s ease-in-out;
   }
+
+  .topProjeto {
+    font-family: HovesBold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .topProjeto2 {
+    margin-top: 0;
+    font-family: GilroyBold;
+    font-size: 16px;
+  }
+
+  .subSkills {
+    width: 90vw;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 35px;
+    align-items: start;
+    border-bottom: 3px solid #8e88c1;
+  }
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .paiProjetos{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4vw;
-        width: 960px;
-    }
-    
-    .projeto-item {
-        width: 209px;
-        height: 206px;
-        background-color: transparent;
-        border: 1px solid #8E88C1;
-        border-radius: 16px;
-        margin-top: 8vw;
-        font-family: GilroyLight;
-        font-size: 16px;
-        display: flex;
-        cursor: pointer;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        transition: .4s ease-in-out;
-        opacity: 1;
-    }
-
-    .projeto5:hover {
-        width: 245px;
-        height: 300px;
-        margin-bottom: 150px;
-        font-family: GilroyLight;
-        border: none;
-        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-        background-image: url(../assets/imgs/catalogoFilmes.webp);
-        transition: .4s ease-in-out;
-    }
-
-
-    .topProjeto {
-        font-family: HovesBold;
-        font-size: 36px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .topProjeto2 {
-        margin-top: 0;
-        font-family: GilroyBold;
-        font-size: 16px;
-    }
+  .paiProjetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vw;
+    width: 960px;
   }
+
+  .projeto-item {
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8e88c1;
+    border-radius: 16px;
+    margin-top: 8vw;
+    font-family: GilroyLight;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+  }
+
+  .projeto5:hover {
+    width: 245px;
+    height: 300px;
+    margin-bottom: 150px;
+    font-family: GilroyLight;
+    border: none;
+    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+    background-image: url(../assets/imgs/catalogoFilmes.webp);
+    transition: 0.4s ease-in-out;
+  }
+
+  .topProjeto {
+    font-family: HovesBold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .topProjeto2 {
+    margin-top: 0;
+    font-family: GilroyBold;
+    font-size: 16px;
+  }
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .paiProjetos{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4vw;
-        width: 930px;
-    }
-    
-    .projeto-item {
-        width: 209px;
-        height: 206px;
-        background-color: transparent;
-        border: 1px solid #8E88C1;
-        border-radius: 16px;
-        margin-top: 8vw;
-        font-family: GilroyLight;
-        font-size: 16px;
-        display: flex;
-        cursor: pointer;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        transition: .4s ease-in-out;
-        opacity: 1;
-    }
-
-    .projeto5:hover {
-        width: 245px;
-        height: 300px;
-        margin-bottom: 150px;
-        font-family: GilroyLight;
-        border: none;
-        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-        background-image: url(../assets/imgs/catalogoFilmes.webp);
-        transition: .4s ease-in-out;
-    }
-
-    .topProjeto {
-        font-family: HovesBold;
-        font-size: 36px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .topProjeto2 {
-        margin-top: 0px;
-        font-family: GilroyBold;
-        font-size: 16px;
-    }
-
+  .paiProjetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vw;
+    width: 930px;
   }
 
-  
+  .projeto-item {
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8e88c1;
+    border-radius: 16px;
+    margin-top: 8vw;
+    font-family: GilroyLight;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+  }
 
-@media screen and (min-width: 1201px) and (max-width: 1720px){
-    
-    .paiProjetos{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4vw;
-        width: 960px;
-    }
-    
-    .projeto-item {
-        width: 209px;
-        height: 206px;
-        background-color: transparent;
-        border: 1px solid #8E88C1;
-        border-radius: 16px;
-        margin-top: 8vw;
-        font-family: GilroyLight;
-        font-size: 16px;
-        display: flex;
-        cursor: pointer;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        transition: .4s ease-in-out;
-        opacity: 1;
-    }
+  .projeto5:hover {
+    width: 245px;
+    height: 300px;
+    margin-bottom: 150px;
+    font-family: GilroyLight;
+    border: none;
+    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+    background-image: url(../assets/imgs/catalogoFilmes.webp);
+    transition: 0.4s ease-in-out;
+  }
 
-    .projeto5:hover {
-        width: 245px;
-        height: 300px;
-        margin-bottom: 150px;
-        font-family: GilroyLight;
-        border: none;
-        box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
-        background-image: url(../assets/imgs/catalogoFilmes.webp);
-        transition: .4s ease-in-out;
-    }
+  .topProjeto {
+    font-family: HovesBold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 
+  .topProjeto2 {
+    margin-top: 0px;
+    font-family: GilroyBold;
+    font-size: 16px;
+  }
+}
 
-    .topProjeto {
-        font-family: HovesBold;
-        font-size: 36px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .topProjeto2 {
-        margin-top: 0;
-        font-family: GilroyBold;
-        font-size: 16px;
-    }
+@media screen and (min-width: 1201px) and (max-width: 1720px) {
+  .paiProjetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vw;
+    width: 960px;
+  }
+
+  .projeto-item {
+    width: 209px;
+    height: 206px;
+    background-color: transparent;
+    border: 1px solid #8e88c1;
+    border-radius: 16px;
+    margin-top: 8vw;
+    font-family: GilroyLight;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+  }
+
+  .projeto5:hover {
+    width: 245px;
+    height: 300px;
+    margin-bottom: 150px;
+    font-family: GilroyLight;
+    border: none;
+    box-shadow: inset 0px 58px 57px -41px rgba(255, 103, 83, 1);
+    background-image: url(../assets/imgs/catalogoFilmes.webp);
+    transition: 0.4s ease-in-out;
+  }
+
+  .topProjeto {
+    font-family: HovesBold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .topProjeto2 {
+    margin-top: 0;
+    font-family: GilroyBold;
+    font-size: 16px;
+  }
 }

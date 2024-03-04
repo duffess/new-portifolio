@@ -3,9 +3,8 @@ import '../css-c/footer.css';
 
 export default function Main(){
 
-    var dataAtual = new Date();
-
-    var anoAtual = dataAtual.getFullYear();
+    let dataAtual = new Date();
+    let anoAtual = dataAtual.getFullYear();
 
     return (
         <div className="Footer" >
